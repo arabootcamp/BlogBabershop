@@ -11,7 +11,7 @@
   align-items: center;
 
   &__title {
-    padding: 0 25%;
+    padding: 0 15%;
     text-align: center;
      @include response-to('device-small') {
      padding: 0 9%;

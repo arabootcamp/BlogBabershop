@@ -10746,7 +10746,7 @@ body {
 
 h1, .h1 {
   font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-size: calc(30px + (100vw - 280px) * 0.15 );
   font-weight: 900;
   font-style: italic;
   color: #FFF;
@@ -10787,7 +10787,7 @@ p {
   align-items: center;
 }
 .header__title {
-  padding: 0 25%;
+  padding: 0 15%;
   text-align: center;
 }
 @media (min-width: 575.98px) {
