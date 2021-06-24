@@ -2,10 +2,10 @@
 
 //abstracts
 @import 'abstracts/variables';
+@import 'abstracts/mixins';
 //vendors
 @import 'vendors/bootstrap/bootstrap';
 //base
-@import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
 //layout
