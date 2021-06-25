@@ -10770,12 +10770,14 @@ h3, .h3 {
   color: #E56353;
 }
 
+h4, .h4,
 p,
 .fs-custom {
   font-size: 12px;
 }
 @media (min-width: 767.98px) {
-  p,
+  h4, .h4,
+p,
 .fs-custom {
     font-size: 16px;
   }
