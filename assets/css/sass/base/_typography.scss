@@ -32,7 +32,10 @@ h3 {
   color: $fuzzy-wuzzy;
 }
 
-p {
+p, .fs-custom {
   font-size: $small;
+  @include response-to('device-medium') {
+    font-size: $medium;
+  }
 }
 

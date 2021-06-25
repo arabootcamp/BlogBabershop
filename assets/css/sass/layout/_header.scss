@@ -10,11 +10,21 @@
   justify-content: center;
   align-items: center;
 
+  @include response-to('device-medium') {
+    height: 55vw;
+  }
+
+  @include response-to('device-xlarge') {
+    height: 800px;
+    background-position: top;
+  }
+
   &__title {
     padding: 0 15%;
     text-align: center;
-     @include response-to('device-small') {
-     padding: 0 9%;
+
+    @include response-to('device-small') {
+      padding: 0 9%;
     }
   }
 
