@@ -9,7 +9,7 @@ body {
 
 h1 {
   font-family: $playfair;
-  font-size: calc(30px + (100vw - 280px) * 0.15 );
+  font-size: calc(30px + (100vw - 280px) * 0.15);
   font-weight: $fweight-black;
   font-style: $italic;
   color: $white;
@@ -32,10 +32,11 @@ h3 {
   color: $fuzzy-wuzzy;
 }
 
-p, .fs-custom {
+p,
+.fs-custom {
   font-size: $small;
+
   @include response-to('device-medium') {
     font-size: $medium;
   }
 }
-
